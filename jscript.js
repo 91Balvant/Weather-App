@@ -48,7 +48,7 @@ put.appendChild(cloudcover);
 
 const feelslike = document.createElement('div');
 feelslike.classList.add('card');
-feelslike.innerHTML = `  <img src="./weather.gif" alt="">
+feelslike.innerHTML = `  <img src="./feedlike.gif" alt="">
         <div class="info">
             <h2>Feelslike : ${api_data.current.feelslike}</h2>
         </div>`;
