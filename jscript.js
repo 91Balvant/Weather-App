@@ -46,14 +46,6 @@ cloudcover.innerHTML = `  <img src="./img/clouds.gif" alt="">
         </div>`;  
 put.appendChild(cloudcover);
 
-const feelslike = document.createElement('div');
-feelslike.classList.add('card');
-feelslike.innerHTML = `  <img src="./img/feedlike.gif" alt="">
-        <div class="info">
-            <h2>Feelslike : ${api_data.current.feelslike}</h2>
-        </div>`;
-put.appendChild(feelslike);
-
 const humidity = document.createElement('div');
 humidity.classList.add('card');
 humidity.innerHTML = `  <img src="./img/humidity.gif" alt="">
